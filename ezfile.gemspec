@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name = "ezfile"
   spec.version = Ezfile::VERSION
   spec.authors = ["saisui"]
-  spec.email = [""]
+  spec.email = ["example@example.com"]
 
   spec.summary = "A filetool for windows, It's more safety"
   spec.description = "More Safety than FileUtils. Like #move_file, #copy_file, #rename_file. If that destination string including a space, it will be a correct node name. If that destination directory has a same name file, move will throw an Error of if send a keyvalue -- rename: true, it will be renamed by order Number."
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/saisui/ezfilerb"
-  spec.metadata["changelog_uri"] = "https://github.com/saisui/ezfilerb/CHANGE.log" # TODO: Put your gem's CHANGELOG.md URL here.
+  spec.metadata["changelog_uri"] = "https://github.com/saisui/ezfilerb/CHANGELOG.md" # TODO: Put your gem's CHANGELOG.md URL here.
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
