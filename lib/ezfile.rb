@@ -52,6 +52,9 @@ module Ezfile
   def tailname fname
       Ezfile.basename(fname).match(/((\.[0-9A-Za-z\-_]+)+$)/)[0]
   end
+  def tailnames fname
+      Ezfile.basename(fname).match(/((\.[0-9A-Za-z\-_]+)+$)/)[0].split(/(?=\.)/)
+  end
 
   def headname fname
       File.basename(fname)[0...-tailname(fname).size]
