@@ -206,6 +206,7 @@ class String
       f = File.new(fpath, "w")
       f.puts self
       f.close
+      self
     end
   end
 end
