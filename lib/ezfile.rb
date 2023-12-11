@@ -210,3 +210,18 @@ class String
     end
   end
 end
+
+class File
+  # get file's all content
+  #
+  #   res = self.read
+  #   self.pos=0
+  #   res
+  #
+  def getall
+    res = self.read
+    self.pos=0
+    res
+  end
+  alias all getall
+end
